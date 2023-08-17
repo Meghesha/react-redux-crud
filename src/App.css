@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.header{
+  width: 100%;
+  background-color: blue;
+  color: #ffe;
+  padding: 1%;
+  text-align: left;
+}
+
+a{
+  text-decoration: none !important;
+  color: white !important;
+  padding: 2px;
+}
+
+.card-header{
+  text-align: right;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
