@@ -8,6 +8,7 @@ import UpdateUser from "./components/UpdateUser";
 import { ToastContainer } from "react-toastify";
 import { Provider } from "react-redux";
 import Store from "./redux/Store";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -17,12 +18,14 @@ function App() {
           <div className="header">
             <Link to={"/"}>Home</Link>
             <Link to={"/user"}>User</Link>
+            <Link to={"/login"}>Login</Link>
           </div>
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/user" element={<UserListing/>}></Route>
             <Route path="/user/add" element={<AddUser />}></Route>
             <Route path="/user/edit/:code" element={<UpdateUser />}></Route>
+            <Route path='/login' element={<Login/>}></Route>
           </Routes>
         </BrowserRouter>
         <ToastContainer className="toast-position" position="bottom-right"></ToastContainer>

@@ -1,3 +1,11 @@
 {
-  "user": []
+  "user": [
+    {
+      "name": "meghesh",
+      "email": "megha@gmail.com",
+      "phone": "4815325+84",
+      "role": "staff",
+      "id": 1
+    }
+  ]
 }
